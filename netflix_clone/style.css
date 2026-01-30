@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: transparent;
+    color: white;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/netflix_clone/images/background.jpg");
+
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 11%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border:0;
+    outline:0;
+    background: #db0001;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+.lang-drop
+{
+    display: inline-flex;
+    flex-direction: row;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    gap: 5px;
+    left: 30%;
+}
+.header-content
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; ;
+    width: 40%;
+}
+.Email-signup
+{
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: row;
+    gap: 10px; ;  
+
+}
+.Email-signup input
+{
+    border: 1px solid white;
+  
+    background: transparent;
+    padding: 20px ;
+    width: 350px;
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+}
+.Email-signup button
+{
+    background-color: #db0001;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+.trend {
+    padding-left: 65px;
+    margin-bottom: -75px;
+}
+
+.trending {
+    display: flex;
+    gap: 40px;
+    padding: 5px 20px;
+    overflow-x: scroll;
+}
+
+
+.movie img
+{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width:197px;
+  border-radius: 10px;
+  cursor: pointer;
+    
+}
+.movie span
+{
+    display: flex;
+    position:relative ;
+    flex-wrap: wrap;
+    bottom:-300px;
+    left: -29px;
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 2px white;
+
+}
+
+.reasons-title 
+{
+    color: white;
+    padding-left: 70px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+   
+}
+
+.reasons 
+{
+    display: flex;
+    gap: 30px;
+    padding: 30px 60px;
+}
+
+.card {
+    background: linear-gradient(135deg, #1b1b3a, #120014);
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 2500px;
+    height: 230px;
+    position: relative;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+.card img {
+    width: 70px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+.faq-title {
+    color: white;
+    padding-left: 60px;
+    margin-bottom: 40px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+}
+
+.faq-item {
+    background: #303030;
+    color: white;
+    padding: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.faq-item:hover {
+    background: #535050;
+}
+
+.plus {
+    font-size: 50px;
+    font-weight: lighter;
+}
+.membership
+{
+    margin-left: 470px;
+    margin-top: 50px;
+}
+.Email-signup2
+{
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: row;
+    gap: 10px; ;  
+
+}
+.Email-signup2 input
+{
+    border: 1px solid white;
+  
+    background: transparent;
+    padding: 20px ;
+    width: 350px;
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+   margin-left: 490px;
+   margin-top: 20px;
+}
+.Email-signup2 button
+{
+    background-color: #db0001;
+    margin-top: 20px;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+.con
+{
+    padding-top: 100px;
+}
+.con a{
+     color: #b7b4b4;
+}
+.contacts
+{
+    display: flex;
+    flex-direction: row;
+    
+     
+}
+.lines
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    padding-left: 80px;
+    width: 1000px;
+   
+    
+}
+
+.lines a{
+     color: #b8b6b6;
+     padding-left: 5%;
+}
+.eng-btn
+{
+    color: #ccc;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.lang-drop1
+{
+    background: transparent;
+    color: white;
+    padding: 10px 19px;
+    border: solid white 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.net-in
+{
+    padding-top: 40px;
+    padding-left: 90px;
+    color: #b7b4b4;
+}
+.seclast
+{
+    padding-top: 50px;
+    padding-left: 80px;
+    color: #767171;
+}
+
+.last
+{
+ padding-top: 10px;
+ padding-left: 80px;   
+ color: #767171;
+}
+.last a
+{
+    color: rgb(173, 169, 169);
+    padding-bottom: 100px;
+}
