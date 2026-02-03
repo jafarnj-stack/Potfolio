@@ -1,0 +1,63 @@
+
+*{
+    color: rgb(0, 0, 0);
+    border: 0;
+    margin: 0;
+}
+.table{
+    border:solid black 2px;
+}
+.card {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card1{
+background-color: blueviolet;
+padding: 50px 50px;
+}
+.card2{
+background-color: aquamarine;
+padding: 50px 50px;
+}
+.card3{
+     background:linear-gradient(135deg, #1b1b3a, #882693);
+    padding: 50px 50px;
+}
+#cars{
+    padding: 10px 10px 10px 10px;
+   
+}
+.box{
+background:linear-gradient(125deg, rgb(0, 0, 0), green);
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.box1{
+    background: linear-gradient(250deg,rgb(0, 64, 128),rgb(151, 75, 75));
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid white 3px;
+    border-radius: 6px;
+
+}
+.box1 button{
+   background-color: #c5a1c9;
+   font-size: 1rem;
+   height: 40px;
+   width: 80px;
+   border: solid rgb(207, 210, 22) 2px;
+   border-radius: 5px;
+
+
+}
