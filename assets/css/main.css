@@ -1249,3 +1249,9 @@ section,
     margin-top:10px;
     border-radius:5px;
 }
+.sent-message {
+  transition: opacity 0.5s ease;
+}
+.sent-message.hide {
+  opacity: 0;
+}
