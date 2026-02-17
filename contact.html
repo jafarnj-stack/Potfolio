@@ -176,23 +176,23 @@
               >
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
+                    <label for="name-field" class="pb-2"> Name</label>
                     <input
                       type="text"
                       name="name"
                       id="name-field"
                       class="form-control"
-                    />
+                    /><div class="field-error" id="error-name"></div>
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
+                    <label for="email-field" class="pb-2"> Email</label>
                     <input
                       type="text"
                       class="form-control"
                       name="email"
                       id="email-field"
-                    />
+                    /> <div class="field-error" id="error-email"></div>
                   </div>
 
                   <div class="col-md-12">
@@ -202,7 +202,7 @@
                       class="form-control"
                       name="subject"
                       id="subject-field"
-                    />
+                    /><div class="field-error" id="error-subject"></div> 
                   </div>
 
                   <div class="col-md-12">
@@ -212,7 +212,7 @@
                       name="message"
                       rows="10"
                       id="message-field"
-                    ></textarea>
+                    ></textarea><div class="field-error" id="error-message"></div> 
                   </div>
 
                   <div class="col-md-12 text-center">
