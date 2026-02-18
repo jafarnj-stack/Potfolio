@@ -34,19 +34,17 @@ document.getElementById('submit-form').addEventListener('submit', function (e) {
 
   let hasError = false;
 
-  if (name === '') {
+  if (name == '') {
     errorName.innerHTML = 'Please enter your name';
     errorName.style.display = 'block';
     hasError = true;
-  }
-  if (/\d/.test(name)) {
+  } else if (/\d/.test(name)) {
     console.log("number validation")
     errorName.innerHTML = 'Please enter a valid name'
     errorName.style.display = 'block';
     hasError = true;
 
-  }
-  if (!namePattern.test(name)) {
+  } else if (!namePattern.test(name)) {
     errorName.innerHTML = 'Name must contain only letters and single spaces'
     errorName.style.display = 'block';
     hasError = true;
